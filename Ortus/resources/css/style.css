@@ -177,6 +177,11 @@ input[type=submit]:active{
 /* ---------------------------- */
 
 header{
+
+}
+
+.main-header{
+    background-image: linear-gradient(rgba(102, 0, 153, 0.3),rgba(0, 0, 0, 0.9)), url(/Ortus/resources/image/Background-2.jpg);
     background-image: linear-gradient(rgba(102, 0, 153, 0.4),rgba(0, 0, 0, 0.9)), url(/Ortus/resources/img/Background-2.jpg);
     background-size: cover;
     background-position: center;
@@ -259,3 +264,53 @@ header{
     width: 100%;
     height: auto;
 }
+
+
+
+
+
+
+
+/* ----------------------------
+
+
+
+NEW PAGE
+
+
+
+-------------------------------*/
+/* ---------------------------- */
+/* Contact Page */
+/* ---------------------------- */
+
+.contact-header {
+    background-color: purple;
+
+}
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+/*select,*/
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+*:focus {outline: none;}
+
