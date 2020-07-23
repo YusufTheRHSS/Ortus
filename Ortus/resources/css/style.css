@@ -190,6 +190,7 @@ header{
     margin-top: 20px;
 }
 
+
 /* Main Navigation */
 .main-nav {
     float: right;
@@ -217,4 +218,8 @@ header{
 .main-nav li a:active
 {
     border-bottom: 2px solid #b214b9;
+}
+
+.logo-heading {
+    display: inline-block;
 }
