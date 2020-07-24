@@ -281,10 +281,10 @@ header{
     position: fixed;
     z-index: 1;
     top:0;
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
-/*    display: none;*/
+    display: none;
 }
 
 .modal-content-top {
@@ -292,42 +292,51 @@ header{
     height: auto;
     background-color: white;
     border-radius: 4px;
-    text-align: center;
     padding: 20px;
-/*    position: relative;*/
     display: block;
+}
+
+.modal-content-top form{
+    text-align: center;
+    display: block;
+
 }
 
 .pop {
     margin-top: 20px;
     margin-bottom: 12px;
+    display: block;
 }
 
 input {
     width: 50%;
     display: block;
-    margin: 15px auto;
+    margin: 25px auto;
+    border-bottom: 5px solid;
 }
 
 .close{
     position: relative;
     top: 0;
-    right: 14px;
+    float: right;
     font-size: 200%;
     cursor: pointer;
+    display: block;
 }
 
 .modal-content-bottom {
-    margin-top: 20px;
+    margin-top: 0;
     width: 500px;
     height: 120px;
     border-radius: 4px;
     text-align: center;
     padding: 20px;
-/*    position: relative;*/
     display: block;
 }
 
+.modal-content{
+
+}
 /* ----------------------------
 
 
