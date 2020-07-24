@@ -322,8 +322,15 @@ input {
     font-size: 200%;
     cursor: pointer;
     display: block;
+    color: #bab9b9;
 }
 
+.close:hover,
+.close:focus{
+    color: black;
+    cursor: pointer;
+
+}
 .modal-content-bottom {
     margin-top: 0;
     width: 500px;
@@ -335,8 +342,9 @@ input {
 }
 
 .modal-content{
-
+    display: none;
 }
+
 /* ----------------------------
 
 
