@@ -387,15 +387,6 @@ input[type=checkbox] {
 *:focus {outline: none;}
 
 
-.contact-logo-heading {
-    display: inline-block;
-    color: #1f1f1f;
-}
-
-.contact-main-nav {
-
-}
-
 /* Main Navigation for Contact Page */
 .contact-main-nav {
     float: right;
@@ -425,6 +416,8 @@ contact-.main-nav li {
     border-bottom: 2px solid #b214b9;
 }
 
-.logo-heading {
+
+.contact-logo-heading {
     display: inline-block;
+    color: #1f1f1f;
 }
