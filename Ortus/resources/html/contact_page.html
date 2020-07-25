@@ -31,7 +31,7 @@
                         <ul class="contact-main-nav">
                             <li><a href = "/Ortus/index.html">Design</a></li>
                             <li><a href = "/Ortus/index.html">Exhibit</a></li>
-                            <li><a href = "/Ortus/index.html">Enroll</a></li>
+                            <li><a href = "#" id = "design-btn">Enroll</a></li>
                             <li><a href = "contact_page.html">Contact</a></li>
 
                         </ul>
@@ -106,6 +106,36 @@
 
             </div>
         </section>
+
+                <!-- Pop-Up (MODAL) Section -->
+        <div class="bg-modal">
+            <div class="modal-content">
+                <div class="modal-content-top">
+                    <span class="close">&times;</span>
+                    <form>
+                        <h2 class="pop">Become a Creator</h2>
+                        <h5>Welcome! Register for an account </h5>
+                        <input type="text" placeholder="Your Username" class="modal-input">
+                        <input type="email" placeholder="Your Email" class="modal-input">
+                        <input type="text" placeholder="Password" class="modal-input">
+                        <input type="text" placeholder="Confirm Password" class="modal-input">
+                        <input type="submit" value="Send it!">
+                    </form>
+                </div>
+                <div class ="modal-content-bottom" style="background-color: rgb(234, 234, 234)">
+                        <h3>Already a member?</h3>
+                        <a class="btn btn-ghost" href="#">Sign In</a>
+                </div>
+            </div>
+        </div>
+
     </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/respond@0.9.0/main.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/Ortus/vendors/js/jquery.waypoints.min.js"></script>
+    <script  src="/Ortus/resources/js/script.js"></script>
 
 </html>

@@ -149,7 +149,7 @@ input[type=submit]{
     background-color: #ce1ad6;
     border: 3px solid #ce1ad6;
     color:#fff;
-    margin-right: 15px;
+    margin: 0 15px;
 }
 
 .btn-ghost:link,
