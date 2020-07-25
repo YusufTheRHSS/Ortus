@@ -177,6 +177,10 @@ input[type=submit]:active{
     border-color: #b214b9;
 }
 
+.modal-btn{
+    width: 150px;
+}
+
 /* ---------------------------- */
 /* Header */
 /* ---------------------------- */
