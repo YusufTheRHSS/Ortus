@@ -308,11 +308,17 @@ header{
     display: block;
 }
 
-input {
-    width: 50%;
+.modal-input{
+    width: 75%;
     display: block;
     margin: 25px auto;
-    border-bottom: 5px solid;
+    border: 0px;
+    border-bottom: 2px solid #bfbfbf;
+}
+
+.modal-input:focus{
+    border-bottom: 2px solid #575757;
+    transition: border-bottom, 0.5s;
 }
 
 .close{
@@ -366,12 +372,10 @@ NEW PAGE
     margin: 0 auto;
 }
 
-input[type=text],
-input[type=email],
-/*select,*/
-textarea {
+.contact-input {
     width: 100%;
-    padding: 7px;
+    padding: 10px;
+    margin: 10px;
     border-radius: 3px;
     border: 1px solid #ccc;
 }
@@ -385,4 +389,3 @@ input[type=checkbox] {
 }
 
 *:focus {outline: none;}
-
