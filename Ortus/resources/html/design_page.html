@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+         <meta charset="utf-8">
+         <meta name="viewport" content="width =device - width, initial-scal=1.0">
+
+        <!-- Link all Files -->
+        <link rel = "stylesheet" type="text/css" href="/Ortus/vendors/css/normalize.css">
+        <link rel = "stylesheet" type = "text/css" href = "/Ortus/vendors/css/ionicons.min.css">
+        <link rel = "stylesheet" type="text/css"   href="/Ortus/vendors/css/grid.css">
+        <link rel ="stylesheet" type = "text/css" href = "/Ortus/resources/css/style.css">
+        <link rel ="stylesheet" type = "text/css" href = "/Ortus/resources/css/queries.css">
+
+        <!--Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
+
+        <title>Contact Us</title>
+
+    </head>
+
+    <body>
+
+<!-------------------------------------------------------------
+                        CONTACT HEADER
+--------------------------------------------------------------->
+        <header class = "contact-header">
+            <nav>
+                <div class="row">
+                    <img src="/Ortus/resources/img/Logo.png" alt="Ortus Logo" class="logo">
+                    <h4 class = "contact-logo-heading">Ortus</h4>
+                        <ul class="contact-main-nav">
+                            <li><a href = "/Ortus/index.html">Design</a></li>
+                            <li><a href = "/Ortus/index.html">Exhibit</a></li>
+                            <li><a href = "#" id = "design-btn">Enroll</a></li>
+                            <li><a href = "contact_page.html">Contact</a></li>
+
+                        </ul>
+                </div>
+            </nav>
+        </header>
+
+<!-------------------------------------------------------------
+                        CONTACT FORM
+--------------------------------------------------------------->
+        <section class="section-form">
+            <div class="row">
+                <h2>Please contact us</h2>
+            </div>
+            <div class="row">
+                <form method="post" action="#" class="contact-form">
+                    <div class="row contact-form-row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" class="contact-input" id="name" placeholder="Your name" required>
+                        </div>
+                    </div>
+                    <div class="row contact-form-row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="Your email" class="contact-input" required>
+                        </div>
+                    </div>
+                    <div class="row contact-form-row">
+                        <div class="col span-1-of-3">
+                            <label for="find-us">How did you find us?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select name="find-us" id="find-us" class="contact-input">
+                                <option value="friends"  selected>Friends</option>
+                                <option value="search">Search engine</option>
+                                <option value="ad">Advertisement</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row contact-form-row">
+                        <div class="col span-1-of-3">
+                            <label>Newsletter?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="checkbox" name="news" id="news" unchecked> Yes, please
+                        </div>
+                    </div>
+                    <div class="row contact-form-row">
+                        <div class="col span-1-of-3">
+                            <label>Drop us a line</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" placeholder="Your message" class="contact-input"></textarea>
+                        </div>
+                    </div>
+                    <div class="row contact-form-row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value="Send!">
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+        </section>
+
+                <!-- Pop-Up (MODAL) Section -->
+        <div class="bg-modal">
+            <div class="modal-content">
+                <div class="modal-content-top">
+                    <span class="close">&times;</span>
+                    <form>
+                        <h2 class="pop">Become a Creator</h2>
+                        <h5>Welcome! Register for an account </h5>
+                        <input type="text" placeholder="Your Username" class="modal-input">
+                        <input type="email" placeholder="Your Email" class="modal-input">
+                        <input type="text" placeholder="Password" class="modal-input">
+                        <input type="text" placeholder="Confirm Password" class="modal-input">
+                        <input type="submit" value="Send it!">
+                    </form>
+                </div>
+                <div class ="modal-content-bottom" style="background-color: rgb(234, 234, 234)">
+                        <h3>Already a member?</h3>
+                        <a class="btn btn-ghost" href="#">Sign In</a>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/respond@0.9.0/main.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/Ortus/vendors/js/jquery.waypoints.min.js"></script>
+    <script  src="/Ortus/resources/js/script.js"></script>
+
+</html>
