@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <!-- Link all Files -->
+        <link rel = "stylesheet" href="vendors/css/normalize.css">
+        <link rel = "stylesheet" href = "vendors/css/ionicons.min.css">
+        <link rel = "stylesheet" href="vendors/css/grid.css">
+        <link rel ="stylesheet"  href = "css/style.css">
+        <link rel ="stylesheet"  href = "css/queries.css">
+
+
+        <!--Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
+
+        <title>Ortus</title>
+
+    </head>
+
+    <body>
+        <header class = "main-header">
+            <nav>
+                <div class="row">
+                    <img src="img/Logo.png" alt="Ortus Logo" class="logo">
+                    <h4 class = "logo-heading">Ortus</h4>
+                    <ul class="main-nav">
+                        <li><a href = "design_page.html">Design</a></li>
+                        <li><a href = "#gallery">Exhibit</a></li>
+                        <li><a href = "#" id = "design-btn">Enroll</a></li>
+                        <li><a href = "contact_page.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="hero-text-box">
+                <h1>Creativity Awaits.<br>Become your favourite Brand.</h1>
+
+                <a class="btn btn-full" href="#">Design Now</a>
+                <a class="btn btn-ghost" href="#gallery">Community Display</a>
+            </div>
+        </header>
+
+        <section class = "gallery" id = "gallery">
+            <div class="row">
+                <h2>Exhibit</h2>
+                <p class = "long-copy">Hello, we're Ortus. Our goal is to make a hub for creative minds to explore their imagination through apparel. Our art exhibit gives creators the ability to share their custom designs and upvote their favourite community submissions</p>
+            </div>
+
+            <ul class = "shirt-showcase clearfix">
+                <li>
+                    <figure class = "shirt-photo">
+                        <img src = "img/Shirt%20-%201.jpg">
+                    </figure>
+                </li>
+
+                <li>
+                    <figure class = "shirt-photo">
+                        <img src = "img/Shirt%20-%201.jpg">
+                    </figure>
+                </li>
+
+                <li>
+                    <figure class = "shirt-photo">
+                    </figure>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Pop-Up (MODAL) Section -->
+        <div class="bg-modal">
+            <div class="modal-content">
+                <div class="modal-content-top">
+                    <span class="close">&times;</span>
+                    <form>
+                        <h2 class="pop">Become a Creator</h2>
+                        <h5>Welcome! Register for an account </h5>
+                        <input type="text" placeholder="Your Username" class="modal-input">
+                        <input type="email" placeholder="Your Email" class="modal-input">
+                        <input type="text" placeholder="Password" class="modal-input">
+                        <input type="text" placeholder="Confirm Password" class="modal-input">
+                        <input type="submit" value="Send it!" class="modal-btn">
+                    </form>
+                </div>
+                <div class ="modal-content-bottom" style="background-color: rgb(234, 234, 234)">
+                        <h3>Already a member?</h3>
+                        <a class="btn btn-ghost modal-btn" href="#">Sign In</a>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/respond@0.9.0/main.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="vendors/js/jquery.waypoints.min.js"></script>
+        <script src="js/bundle.js"></script>
+
+
+</html>
