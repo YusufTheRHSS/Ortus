@@ -8,6 +8,8 @@
     }
 
     .main-nav{margin-right: 5%;}
+
+    .logo{margin-left: 2%;}
 }
 
 
@@ -16,6 +18,11 @@
     /* body { font-size: 18px; }
     section { padding: 60px 0; } */
     .hero-text-box{width: 600px;}
+
+    .hero-text-box .btn-full{
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
 
 }
 
