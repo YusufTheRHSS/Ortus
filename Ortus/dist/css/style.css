@@ -480,6 +480,28 @@ label{margin-top: 10px;}
     box-shadow: 0 8px 0 white, 0 0 8px #969696;
 }
 
+/* Box for Text, Color, and Logo */
+.modules-box{
+    height: 100%;
+    width: 350px;
+    height: 400px;
+    position: relative;
+    background: #F9F9F9;
+    box-shadow: 2px 2px 15px #969696;
+    box-sizing: border-box;
+}
+
+.tabs{
+    display: block;
+    visibility: visible;
+    position: relative;
+}
+
+/* text */
+
+
+
+
 /* Main Navigation for Design Page - Slim Black Nav */
 .logo-design {
     height:60px;
